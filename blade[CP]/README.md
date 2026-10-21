@@ -109,8 +109,4 @@ Stardew Valley/Mods/
 
 ## 工作文件
 
-以下内容只用于制作，发布或打包 mod 时建议排除：
-
-- `asset/_source/`：PSD 原件、预览图和生成脚本输出
-- `tools/make_seasonal_sprites.py`：四季行走图生成脚本
-- `.venv/`：本地 PSD 解析环境
+-该内容用于编译不可直接导入mods文件夹
