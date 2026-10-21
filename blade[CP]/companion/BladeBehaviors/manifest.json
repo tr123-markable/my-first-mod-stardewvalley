@@ -1,0 +1,15 @@
+{
+    "Name": "Blade Behaviors",
+    "Author": "tr",
+    "Version": "1.0.0",
+    "Description": "Adds rainy-day cooking, weekly gifts, and social behavior for Blade.",
+    "UniqueID": "tr.blade.behaviors",
+    "EntryDll": "BladeBehaviors.dll",
+    "MinimumApiVersion": "4.0.0",
+    "Dependencies": [
+        {
+            "UniqueID": "Pathoschild.ContentPatcher",
+            "IsRequired": true
+        }
+    ]
+}
