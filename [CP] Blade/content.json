@@ -1,0 +1,182 @@
+﻿{
+    "Format": "2.7.0",
+    "Changes": [
+        {
+            "LogName": "刃 - 四季行走图",
+            "Action": "Load",
+            "Target": "Characters/blade",
+            "FromFile": "asset/sprites/blade_{{Season}}.png"
+        },
+        {
+            "LogName": "刃 - 花舞节行走图",
+            "Action": "Load",
+            "Target": "Characters/blade_flowerdance",
+            "FromFile": "asset/sprites/blade_flowerdance.png"
+        },
+        {
+            "LogName": "刃 - 头像",
+            "Action": "Load",
+            "Target": "Portraits/blade",
+            "FromFile": "asset/portrait/blade.png"
+        },
+        {
+            "LogName": "刃 - 角色资料",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "blade": {
+                    "DisplayName": "刃",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "BirthSeason": "spring",
+                    "BirthDay": 9,
+                    "HomeRegion": "Town",
+                    "CanBeRomanced": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "CanSocialize": true,
+                    "CanReceiveGifts": true,
+                    "CanGreetNearbyCharacters": true,
+                    "CanCommentOnPurchasedShopItems": true,
+                    "CanVisitIsland": true,
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": true,
+                    "PerfectionScore": true,
+                    "EndSlideShow": "MainGroup",
+                    "SpouseWantsChildren": true,
+                    "FlowerDanceCanDance": true,
+                    "WinterStarParticipant": true,
+                    "TextureName": "blade",
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Appearance": [
+                        {
+                            "Id": "tr.blade.flowerdance",
+                            "Portrait": "Portraits/blade",
+                            "Sprite": "Characters/blade_flowerdance",
+                            "Condition": "IS_EVENT festival_spring24",
+                            "Precedence": -300
+                        }
+                    ],
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "FarmHouse",
+                            "Tile": {
+                                "X": 27,
+                                "Y": 25
+                            },
+                            "Direction": "down"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "asset/giftTastes.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "asset/festivalPlacement.json"
+        },
+        {
+            "LogName": "刃 - 日常对话",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/blade",
+            "FromFile": "asset/dialogue.json"
+        },
+        {
+            "LogName": "刃 - 日程",
+            "Action": "Load",
+            "Target": "Characters/schedules/blade",
+            "FromFile": "asset/schedule.json"
+        },
+        {
+            "LogName": "刃 - 婚后对话",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueblade",
+            "FromFile": "asset/marriageDialogue.json"
+        },
+        {
+            "LogName": "刃 - 订婚对话",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "blade0": "……从明天起，你的家就是我的归处。$1",
+                "blade1": "……睡不着？我也是。$6#$b#不过，这次不是因为旧梦。"
+            }
+        },
+        {
+            "LogName": "刃 - 春季节日",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "blade": "……蛋壳的颜色，倒是很适合做染料。$4"
+            }
+        },
+        {
+            "LogName": "刃 - 花舞节",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "blade": "……人比平时多。$3",
+                "FlowerDance_Accept": "……可以。$1",
+                "FlowerDance_Decline": "……下次吧。$3"
+            }
+        },
+        {
+            "LogName": "刃 - 夏季节日",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "blade": "汤的味道……很热闹。$4"
+            }
+        },
+        {
+            "LogName": "刃 - 夏季节日",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "blade": "水面的光，像未出鞘的刀。$6"
+            }
+        },
+        {
+            "LogName": "刃 - 秋季节日",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": {
+                "blade": "……你的摊位，我会去看看。$4"
+            }
+        },
+        {
+            "LogName": "刃 - 秋季节日",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": {
+                "blade": "迷宫深处……也许有值得一试的东西。$6"
+            }
+        },
+        {
+            "LogName": "刃 - 冬季节日",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": {
+                "blade": "冰面很滑。……别摔了。$4"
+            }
+        },
+        {
+            "LogName": "刃 - 冬星节",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+                "blade": "……给你的。不是什么贵重东西。$1"
+            }
+        }
+    ]
+}

@@ -1,0 +1,144 @@
+﻿{
+    "Changes": [
+        {
+            "LogName": "刃 - 蛋蛋节站位",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "blade 36 64 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "blade 46 57 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "刃 - 花舞节站位",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "blade 10 42 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "blade 6 30 0",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "刃 - 夏威夷宴会站位",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "blade 33 19 0",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "blade 33 19 0",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "刃 - 月光水母节站位",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "blade 78 25 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "blade 78 25 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "刃 - 星露谷展览会站位",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "blade 24 79 0",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "刃 - 万灵节第一年站位",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "blade 6 23 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "blade 21 22 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "刃 - 冰雪节站位",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "blade 65 19 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "blade 78 33 3",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "刃 - 冬星节站位",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "blade 19 71 1",
+                    "Delimiter": "/"
+                }
+            ]
+        }
+    ]
+}

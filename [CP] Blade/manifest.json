@@ -1,0 +1,11 @@
+﻿{
+    "Name": "刃",
+    "Author": "tr",
+    "Version": "1.2.0",
+    "Description": "增加《崩坏：星穹铁道》的刃作为可攻略、可结婚的 NPC。",
+    "UniqueID": "tr.blade",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
